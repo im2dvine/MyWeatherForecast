@@ -15,7 +15,6 @@
 		9BD982DE27601B7C0080BE5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD982DC27601B7C0080BE5F /* LaunchScreen.storyboard */; };
 		9BD982E6276043A40080BE5F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD982E5276043A40080BE5F /* NetworkController.swift */; };
 		9BD982E8276044FB0080BE5F /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD982E7276044FB0080BE5F /* Weather.swift */; };
-		9BD982EA27604D740080BE5F /* .gitignore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD982E927604D740080BE5F /* .gitignore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		9BD982DF27601B7C0080BE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD982E5276043A40080BE5F /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		9BD982E7276044FB0080BE5F /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
-		9BD982E927604D740080BE5F /* .gitignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +44,6 @@
 		9BD982C527601B790080BE5F = {
 			isa = PBXGroup;
 			children = (
-				9BD982E927604D740080BE5F /* .gitignore.swift */,
 				9BD982D027601B790080BE5F /* MyWeatherForecast */,
 				9BD982CF27601B790080BE5F /* Products */,
 			);
@@ -150,7 +147,6 @@
 				9BD982E6276043A40080BE5F /* NetworkController.swift in Sources */,
 				9BD982D627601B790080BE5F /* ViewController.swift in Sources */,
 				9BD982D227601B790080BE5F /* AppDelegate.swift in Sources */,
-				9BD982EA27604D740080BE5F /* .gitignore.swift in Sources */,
 				9BD982D427601B790080BE5F /* SceneDelegate.swift in Sources */,
 				9BD982E8276044FB0080BE5F /* Weather.swift in Sources */,
 			);
