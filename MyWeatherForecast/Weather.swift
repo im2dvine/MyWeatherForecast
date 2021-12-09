@@ -8,23 +8,29 @@
 import Foundation
 
 struct Weather: Decodable {
-    var current: [Current]
+    var main: [Main]
     
-    struct Current: Decodable {
-        var sunrise: Int
-        var sunset: Int
+    struct Main: Decodable {
+//        var sunrise: Int
+//        var sunset: Int
         var temp: Double
         var feelsLike: Double
-        var humidity: Int
-        var clouds: Int
+        var tempMin: Double
+        var tempMax: Double
+        var pressure: Double
+        var humidity: Double
+//        var clouds: Int
         
         enum CodingKeys: String, CodingKey {
             case feelsLike = "feels_like"
-            case sunrise
-            case sunset
+            case tempMin = "temp_min"
+            case tempMax = "temp_max"
+//            case sunrise
+//            case sunset
             case temp
+            case pressure
             case humidity
-            case clouds
+//            case clouds
         }
     }
 }
