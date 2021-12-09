@@ -50,7 +50,7 @@ struct NetworkController {
     }
     
     //5128581 New York
-    static func fetchWeather(for cityId: Int = 5128581, _ completion: @escaping ((Weather) -> Void)) {
+    static func fetchWeather(for cityId: Int, _ completion: @escaping ((Weather) -> Void)) {
         if let url = Endpoint.cityId(id: cityId).url {
             URLSession.shared.dataTask(with: url) { (data, response, error) in
                 if let error = error {
@@ -65,7 +65,7 @@ struct NetworkController {
                     } catch let error {
                         print("failed to decode object number 2", error)
                     }
-                                    }
+                }
             }.resume()
         }
     }
