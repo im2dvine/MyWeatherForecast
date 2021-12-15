@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9B269ACE276A5F6200B63DD7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B269ACD276A5F6200B63DD7 /* HomeViewModel.swift */; };
 		9B269AD0276A601700B63DD7 /* Double+TempConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B269ACF276A601700B63DD7 /* Double+TempConversion.swift */; };
+		9B7CAF55276AB293004F5F6B /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7CAF54276AB293004F5F6B /* Secret.swift */; };
 		9BD982D227601B790080BE5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD982D127601B790080BE5F /* AppDelegate.swift */; };
 		9BD982D427601B790080BE5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD982D327601B790080BE5F /* SceneDelegate.swift */; };
 		9BD982D627601B790080BE5F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD982D527601B790080BE5F /* HomeController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		9B269ACD276A5F6200B63DD7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		9B269ACF276A601700B63DD7 /* Double+TempConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+TempConversion.swift"; sourceTree = "<group>"; };
+		9B7CAF54276AB293004F5F6B /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		9BD982CE27601B790080BE5F /* MyWeatherForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeatherForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD982D127601B790080BE5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BD982D327601B790080BE5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				9BD982DA27601B7C0080BE5F /* Assets.xcassets */,
 				9BD982DC27601B7C0080BE5F /* LaunchScreen.storyboard */,
 				9BD982DF27601B7C0080BE5F /* Info.plist */,
+				9B7CAF54276AB293004F5F6B /* Secret.swift */,
 			);
 			path = MyWeatherForecast;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				9B269ACE276A5F6200B63DD7 /* HomeViewModel.swift in Sources */,
 				9BD982D627601B790080BE5F /* HomeController.swift in Sources */,
 				9BD982D227601B790080BE5F /* AppDelegate.swift in Sources */,
+				9B7CAF55276AB293004F5F6B /* Secret.swift in Sources */,
 				9BD982D427601B790080BE5F /* SceneDelegate.swift in Sources */,
 				9BD982E8276044FB0080BE5F /* Weather.swift in Sources */,
 			);
