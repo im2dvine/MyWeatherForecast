@@ -10,7 +10,7 @@ import Foundation
 struct NetworkController {
     
     private static var baseUrl = "api.openweathermap.org"
-    private static let apiKey = "56d6ee556c449661e94dc7e4eecbfb95"
+    private static let apiKey = MyOpenWeatherApiKey
     
     
     enum Endpoint {

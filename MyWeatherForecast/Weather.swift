@@ -8,6 +8,7 @@
 import Foundation
 
 struct Weather: Decodable {
+    var name: String
     var main: Main
     
     struct Main: Decodable {
